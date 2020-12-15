@@ -1,0 +1,326 @@
+@media (min-width: 50em){
+	.nav a {
+	height: 2.5em;
+	}
+}
+
+.nav li span {
+display: block;
+line-height: 2.5em;
+}
+
+.top-header{
+height: 100px;
+}
+
+.front-logo{
+line-height: 100px;
+margin-top: 10px;
+margin-bottom: -10px;
+}
+
+.top-right{
+
+}
+
+.crumbs2{
+background: none!important;
+padding: 20px 0px!important;
+}
+
+.slider-sec{
+width: 100%;
+height: auto;
+margin-bottom: 80px;
+color: #a7a7a7;
+text-shadow: 0px 1px 0px #000;
+}
+
+.slider-img{
+}
+
+.slides li{
+background-size: cover!important;
+height: 380px;
+text-align: center;
+}
+
+.slides li h2{
+text-align: center!important;
+position: relative;
+color: #ffffff!important;
+font-size: 2.5em!important;
+margin: 2em 2em 1em 2em!important;
+}
+
+.slides li p{
+text-align: center!important;
+position: relative;
+color: #ffffff!important;
+font-size: 1.5em!important;
+margin: 2em 2em 2em 2em!important;
+line-height: 1.5em;
+}
+
+.slides li a{
+}
+
+.features{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.feature-icon{
+font-size: 60px;
+}
+
+.features h3{
+font-size: 20px;
+line-height: 50px;
+}
+
+.headline h1{
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.call-to-action{
+background: #282828;
+padding: 40px 20px 50px 20px;
+text-shadow: 0px 1px 0px #000;
+text-align: center;
+}
+
+.call-to-action h1{
+color: #f6f6f6;
+}
+
+.call-to-action ul{
+list-style: none;
+margin-bottom: 50px;
+}
+
+.call-to-action ul li{
+display: inline;
+color: #d5d5d5;
+font-size: 18px;
+text-align: left;
+}
+
+.footer-panel{
+color: #aaa;
+background-color: #363636;
+text-align: left;
+padding: 50px 0px;
+margin-top: 40px;
+}
+
+.bg {
+box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+}
+
+.in-grid{
+max-width:1200px;
+margin: 0 auto;
+}
+
+.social{
+list-style: none;
+float: right;
+color: #555;
+}
+
+.social li{
+display: inline-block;
+width: 32px;
+height: 32px;
+border: 2px solid #eff3f4;
+line-height: 38px;
+text-align: center;
+color: #eff3f4;
+border-radius: 50%;
+margin-top: 8px;
+}
+
+.social li a{
+color: #ffffff;
+}
+
+.button-register{
+display: inline-block;
+height: 30px;
+background: #fff;
+position: relative;
+line-height: 30px;
+border-radius: 5px 0px 0px 5px;
+padding: 2px 10px;
+color: #000;
+margin-top: 9px;
+float: right;
+border-right: 1px solid #222;
+}
+
+.button-login{
+display: inline-block;
+height: 30px;
+background: #fff;
+position: relative;
+line-height: 30px;
+border-radius: 0px 5px 5px 0px;
+padding: 2px 10px;
+color: #000;
+margin-top: 9px;
+float: right;
+}
+
+.button-logout{
+display: inline-block;
+height: 30px;
+background: #fff;
+position: relative;
+line-height: 30px;
+border-radius: 5px 5px 5px 5px;
+padding: 2px 10px;
+color: #000;
+margin-top: 9px;
+float: right;
+}
+
+.box {
+margin-top: 20px;
+border: 1px solid #e3e3e3;
+}
+
+.styled progress {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  height: 30px;
+
+  /* Firefox */
+  border: none;
+  background: #EEE;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+}
+
+.styled progress::-webkit-progress-bar {
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+}
+
+.styled progress::-webkit-progress-value {
+  background-color: #CC0000;
+  border-radius: 3px;
+}
+
+.styled progress::-moz-progress-bar {
+  background-color: #CC0000;
+  border-radius: 3px;
+}
+
+.style1 progress::-webkit-progress-value {
+  background-color: #3cb549;
+  border-radius: 3px;
+}
+
+.style1 progress::-moz-progress-bar {
+  background-color: #3cb549;
+  border-radius: 3px;
+}
+
+
+.result{
+text-align: center;
+padding: 20px 20px;
+}
+
+.correct-class{
+color: #3cb549!important;
+font-weight: bold;
+}
+
+.course-box section .box{
+border: 1px solid #e3e3e3;
+padding: 15px;
+background: #e3e3e3;
+}
+
+.course-box section .course-upper{
+background: #3B3E40;
+color: #fff;
+padding: 10px;
+text-align: center;
+min-height: 170px;
+}
+
+.course-box section .course-upper h1{
+font-size: 30px;
+line-height: 40px;
+margin-bottom: 20px;
+color: #ffffff;
+}
+
+.course-box section .course-upper h4{
+
+}
+
+.course-box section .course-lower{
+height: 70px;
+}
+
+.course-box section .course-lower .course-details{
+float: left;
+}
+
+.course-box section .course-lower a{
+margin-top: 25px;
+}
+
+.exam-enrol{
+margin: 20px 0px 6px 0px;
+display: block;
+min-width: 140px;
+text-align: center;
+}
+
+.heading-row {
+margin: 30px 0px;
+}
+
+.contact-details{
+margin: 20px 0px;
+}
+
+.contact-details li{
+margin: 10px 0px;
+}
+
+.contact-details li i{
+margin-right: 10px;
+}
+
+.contact-details li .icon-prepend{
+left: 0;
+position: relative;
+top: 0px;
+}
+
+.fw_git p{
+padding: 10px 0px;
+}
+
+.fw_git ul li{
+line-height: 30px;
+}
+
+.fw_git ul li i{
+font-size: 20px;
+margin-right: 10px;
+}
