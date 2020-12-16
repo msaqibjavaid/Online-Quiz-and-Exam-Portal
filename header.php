@@ -8,9 +8,37 @@
 <title>Online Quiz and Exam Portal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="theme/master/front/style/style.css"  type="text/css" />
+<link rel="stylesheet" href="assets/style/jquery-ui.css" type="text/css" />
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.js"></script>
+<script src="assets/js/jquery.wysiwyg.js"></script>
+<script src="assets/js/global.js"></script>
+<script src="assets/js/nicescroll.js" type="text/javascript" ></script>
+<script src="assets/js/modernizr.mq.js" type="text/javascript" ></script>
+<script src="assets/js/checkbox.js"></script>
+<script src="assets/js/jquery.flexslider-min.js"></script>
+<script src="assets/fancybox/jquery.fancybox.pack.js"></script>
+<script src="assets/fancybox/helpers/jquery.fancybox-media.js"></script>
+<script src="assets/js/countdown.js"></script>
+<script src="assets/js/custom.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/style/flexslider.css" media="screen" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="theme/master/front/style/new.css"  type="text/css" />
-
+<script type="text/javascript"> 
+// Slider with thumbnail
+$(document).ready(function() {
+	$('#slider').flexslider({
+		animation: "slide",
+		controlNav: true,
+		autoplay: false,
+		directionNav: true,
+		animationLoop: true,
+		slideshow: true
+    });
+});
+</script>
 </head>
 <body data-smooth-scrolling="1">
 <div id="loader" style="display:none"></div>
@@ -68,3 +96,8 @@
 	</header>
 </div>
 </div>
+<div class="container in-grid">
+<!--Header -->
+ <!-- Main Content -->
+  <div  class="row grid_24">
+  <div id="msgholder"></div>
