@@ -97,3 +97,9 @@ $(document).ready(function() {
 	</header>
 </div>
 </div>
+<div class="container in-grid">
+
+<!-- Header /-->
+  <!-- Main Content -->
+  <div  class="row grid_24">
+  <div id="msgholder"></div>
