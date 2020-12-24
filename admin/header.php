@@ -72,7 +72,7 @@
 					  <li><a href="index.php"><i class="icon-user menu-icon"></i><span>Staff</span></a></li>
 					  
 					  <li><a href="index.php"><i class="icon-users menu-icon"></i><span>Clients</span></a></li>
-					  <?php endif;?>
+					 
 					</ul>
 				  </li>
 				  <li> <a href="#">Course & Exams</a>
@@ -82,7 +82,7 @@
 					  <li><a href="exam.php"><i class="icon-exams menu-icon"></i><span>Manage Exams</span></a></li>
 					  <li><a href="question.php"><i class="icon-ques menu-icon"></i><span>Manage Questions</span></a></li>
 					  <li><a href="addquestion.php"><i class="icon-addq menu-icon"></i><span>Add Question</span></a></li>					  
-					  <?php endif;?>
+					  
 					  <li><a href="result.php"><i class="icon-result menu-icon"></i><span>Results</span></a></li>
 					</ul>
 				  </li>
