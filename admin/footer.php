@@ -3,7 +3,7 @@
     <strong>Copyright &copy; 2020 <a href="https:saqibz.com">Final Year Project Comsats</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Vehari</b> Campus
+      <b>Vehari</b> Campus 
     </div>
   </footer>
 
