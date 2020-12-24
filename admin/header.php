@@ -1,96 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Online Quiz and Exam portal</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="../theme/master/admin/style/style.css"  type="text/css" />
-<link rel="stylesheet" href="../assets/style/jquery-ui.css" type="text/css" />
-<script src="../assets/js/jquery.js"></script>
-<script src="../assets/js/jquery-ui.js"></script>
-<script src="../assets/js/jquery.ui.touch-punch.js"></script>
-<script src="../assets/js/jquery.wysiwyg.js"></script>
-<script src="../assets/js/global.js"></script>
-<script src="../assets/js/custom.js"></script>
-<script src="../assets/js/nicescroll.js" type="text/javascript" ></script>
-<script src="../assets/js/modernizr.mq.js" type="text/javascript" ></script>
-<script src="../assets/js/checkbox.js"></script>
-<script src="../assets/fancybox/jquery.fancybox.pack.js"></script>
-<script src="../assets/fancybox/helpers/jquery.fancybox-media.js"></script>
-<link rel="stylesheet" type="text/css" href="../assets/fancybox/jquery.fancybox.css" media="screen" />
-<script src="admin/js/menu.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Dashboard</title>
 
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
 </head>
-<body data-smooth-scrolling="1">
-<div id="loader" style="display:none"></div>
-<div class="bg">
-  <div class="container">
-  
-<div class="row grid_24"  id="crumbs">
-	
-	<div class="col grid_5">
-		<div class="header-logo"><a href="index.php"><img src="../uploads/logo.png" alt="Quiz and Exam Portal" class="logo"/>Quiz and Exam portal</a></div>
-	</div>
-	<div class="col grid_19">
-		<section class="row">
-		  <div class="col grid_16">
-		
-		  </div>
- <div class="col grid_8"> 
-			<!-- User Panel -->
-			<div id="userpanel"> <img src="../uploads/avatars/avator.png";?>Admin Image<span>Admin</span>
-			  <ul class="profilenav">
-				<li> <a href="#" id="showhide">
-				  <p>English</p>
-				  </a>
-				  <div id="settingslist">
-					<ul class="sub">
-					  <li><i class="icon-reorder pull-left"></i> <a href="index.php">Account Settings</li>
-					  <li><i class="icon-signout pull-left"></i> <a href="logout.php">Logout</a></li>
-					</ul>
-				  </div>
-				</li>
-			  </ul>
-			</div>
-			<!-- User Panel /-->  
-		  </div>
-		</section>
-	</div>
-</div>
-	
-<div class="row grid_24 clearfix">
-	<div id="bitset" class="col grid_5">
-	<div id="truecontent">
-		<!-- Header -->
-		<header id="header" class="clearfix">
-			<nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
-			  <div class="cbp-hsinner">
-				<ul class="cbp-hsmenu">
-				  
-				  <li> <a href="#">User Manager</a>
-					<ul class="cbp-hssubmenu">
-					  <li><a href="index.php"><i class="icon-user menu-icon"></i><span>Staff</span></a></li>
-					  
-					  <li><a href="index.php"><i class="icon-users menu-icon"></i><span>Clients</span></a></li>
-					 
-					</ul>
-				  </li>
-				  <li> <a href="#">Course & Exams</a>
-					<ul class="cbp-hssubmenu">
-					  
-					  <li><a href="course.php"><i class="icon-copy menu-icon"></i><span>Manage Courses</span></a></li>
-					  <li><a href="exam.php"><i class="icon-exams menu-icon"></i><span>Manage Exams</span></a></li>
-					  <li><a href="question.php"><i class="icon-ques menu-icon"></i><span>Manage Questions</span></a></li>
-					  <li><a href="addquestion.php"><i class="icon-addq menu-icon"></i><span>Add Question</span></a></li>					  
-					  
-					  <li><a href="result.php"><i class="icon-result menu-icon"></i><span>Results</span></a></li>
-					</ul>
-				  </li>
-				  <li> <a href="#">Enrolment & Billing</a>
-					<ul class="cbp-hssubmenu">
-					  <li><a href="enroll.php"><i class="icon-enrol menu-icon"></i><span>Enrolment</span></a></li>
-					  <li><a href="transactions.php"><i class="icon-trans menu-icon"></i><span>Transactions</span></a></li>
-					  <li><a href="gateways.php"><i class="icon-payment menu-icon">Gateways</span></a></li>
-					</ul>
-				  </li>
-				 
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.php" class="nav-link">Home</a>
+      </li>
+     
+    </ul>
+
+    
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Exam Portal</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Noman and Saqib</a>
+        </div>
+      </div>
+
+     
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v3</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Layout Options
+                <i class="fas fa-angle-left right"></i>
+                             </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Top Navigation</p>
+                </a>
+              </li>
+             
+            </ul>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+    <div class="content-wrapper">
