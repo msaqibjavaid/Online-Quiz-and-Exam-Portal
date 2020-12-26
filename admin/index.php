@@ -1,5 +1,4 @@
 <?php include("header.php");?>
-<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <div class="row" style="margin: 8px;">
 
           <div class="col-lg-3 col-6">
@@ -11,7 +10,7 @@
                 <p>Active Users</p>
               </div>
               <div class="icon">
-                <span class="iconify" data-icon="ant-design:user-outlined" data-inline="false"></span>
+               <i class="fas fa-user"></i>
               </div>
               <a href="users.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -26,7 +25,7 @@
                 <p>Courses</p>
               </div>
               <div class="icon">
-               <span class="iconify" data-icon="bx:bxs-book" data-inline="false"></span>
+               <i class="fas fa-book"></i>
               </div>
               <a href="courses.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -41,7 +40,7 @@
                 <p>Staff</p>
               </div>
               <div class="icon">
-                <span class="iconify" data-icon="fa-solid:users" data-inline="false"></span>
+                <i class="fas fa-users"></i>
               </div>
               <a href="staff.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -56,7 +55,7 @@
                 <p>Active Exams</p>
               </div>
               <div class="icon">
-               <span class="iconify" data-icon="raphael:paper" data-inline="false"></span>
+                <i class="fas fa-scroll"></i>
               </div>
               <a href="exams.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
