@@ -78,39 +78,146 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <i class="right fas fa-angle-left"></i>
+               
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
-            </ul>
+            
           </li>
           
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
+              <i class="nav-icon fas fa-user"></i>
               <p>
-                Layout Options
+                User Manager
                 <i class="fas fa-angle-left right"></i>
                              </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/top-nav.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation</p>
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Users</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Staff</p>
                 </a>
               </li>
              
             </ul>
           </li>
-          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-box-open"></i>
+              <p>
+                Courses and Exams
+                <i class="fas fa-angle-left right"></i>
+                             </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Manage Courses</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Manage Exams</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Manage Questions</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Add Questions</p>
+                </a>
+              </li>
+             <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Results</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+           <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-ethernet"></i>
+              <p>
+                Enrollment & Billing
+                <i class="fas fa-angle-left right"></i>
+                             </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Enrollment</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Transactions</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Payement Gateways</p>
+                </a>
+              </li>
+             
+            </ul>
+          </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Contents
+                <i class="fas fa-angle-left right"></i>
+                             </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Resource Categories</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Resource Items</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Add Resource Item</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Manage FAQS</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Add FAQ Item</p>
+                </a>
+              </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
