@@ -37,5 +37,6 @@
     </div>
   </div>
 </footer>
+<!-- jQuery -->
 
 </body></html>
