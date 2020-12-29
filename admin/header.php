@@ -91,13 +91,13 @@
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
-                  <p>Users</p>
+                  <p>Staff</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
-                  <p>Staff</p>
+                  <p>Clients</p>
                 </a>
               </li>
              
@@ -219,4 +219,6 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+
     <div class="content-wrapper">
+    	
