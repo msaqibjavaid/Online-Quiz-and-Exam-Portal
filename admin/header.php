@@ -20,6 +20,10 @@
   <link rel="stylesheet" href="style/adminlte.min.css">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="style/OverlayScrollbars.min.css">
+  <link rel="stylesheet" type="text/css" href="style/forms.css">
+  
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  
  </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
