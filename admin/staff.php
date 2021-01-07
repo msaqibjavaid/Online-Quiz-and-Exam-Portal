@@ -2,7 +2,7 @@
 
  <div class="card" style="margin: 8px;">
               <div class="card-header">
-                <h1 class="card-title"><i class="icon-reorder"></i> &nbsp;Recent Enrolments</h1>
+                <h1 class="card-title"><i class="icon-reorder"></i> &nbsp;Viewing Staff</h1>
                    <aside style="text-align: right"> <a href="addstaff.php"><span class="icon-plus">&nbsp;Add Staff</span></a> </aside>
               </div>
               <!-- /.card-header -->
