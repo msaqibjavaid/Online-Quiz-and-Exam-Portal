@@ -102,7 +102,7 @@
     </div>
   </section>
   <footer > 
-  <button class="button" name="dosubmit" type="submit" style="align-content: left">Adrd Staff</button>
+  <button class="button" name="dosubmit" type="submit" style="align-content: left">Add Staff</button>
     <a href="index.php" class="button button-secondary">Cancel</a> </footer>
 </div>
  
