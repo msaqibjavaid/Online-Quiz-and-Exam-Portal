@@ -21,7 +21,7 @@
                   <tr>
                     <td>Noman Aslam</td>
                     <td>noman@gmail.com</td>
-           <td>&nbsp;<span class="tbicon"> <a href="staffedit.php" ><i class="icon-pencil"></i></a> </span>&nbsp;
+           <td>&nbsp;<span class="tbicon"> <a href="editstaff.php" ><i class="icon-pencil"></i></a> </span>&nbsp;
           <span class="tbicon"> <a href="delete" ><i class="icon-trash"></i></a> </span>
          </td>
                   </tr>
@@ -29,7 +29,7 @@
                     <td>Saqib Javaid</td>
                     <td>saqib@gmail.com</td>
                     
-           <td>&nbsp;<span class="tbicon"> <a href="staffedit.php" ><i class="icon-pencil"></i></a> </span>&nbsp;
+           <td>&nbsp;<span class="tbicon"> <a href="editstaff.php" ><i class="icon-pencil"></i></a> </span>&nbsp;
           <span class="tbicon"> <a href="delete" ><i class="icon-trash"></i></a> </span>
          </td>
                   </tr>
