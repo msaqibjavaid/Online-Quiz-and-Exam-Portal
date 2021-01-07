@@ -21,7 +21,19 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="style/OverlayScrollbars.min.css">
   <link rel="stylesheet" type="text/css" href="style/forms.css">
-  
+  <!--- editor js -->
+  <script src="style/tinymce.js"></script>
+  <script type="text/javascript">
+  tinymce.init({
+    selector: '#myTextarea'
+});
+  tinymce.init({
+    selector: '#myTextarea',
+    width: 600,
+    height: 300
+});
+</script>
+
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   
  </head>
@@ -117,7 +129,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="courses.php" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>Manage Courses</p>
                 </a>
