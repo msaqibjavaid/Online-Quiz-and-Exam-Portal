@@ -21,6 +21,8 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="style/OverlayScrollbars.min.css">
   <link rel="stylesheet" type="text/css" href="style/forms.css">
+    <link rel="stylesheet" type="text/css" href="style/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!--- editor js -->
   <script src="style/tinymce.js"></script>
   <script type="text/javascript">
@@ -135,25 +137,25 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="exams.php" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>Manage Exams</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="managequestions.php" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>Manage Questions</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="addquestions.php" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>Add Questions</p>
                 </a>
               </li>
              <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="results.php" class="nav-link">
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>Results</p>
                 </a>
