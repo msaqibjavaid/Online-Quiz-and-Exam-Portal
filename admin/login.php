@@ -11,14 +11,14 @@
 <div class="box">
 <h1>Admin Login Page</h1>
 
-<input type="email" name="email" value="Email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+<input type="email" name="email"  placeholder="Email" onblur="field_blur(this, 'Email');" class="email" />
   
-<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+<input type="password" name="password"   onblur="field_blur(this, 'password');" class="email" />
   
 <a href="index.php"><div class="btn">Sign In</div></a> <!-- End Btn -->
 
-<a href="../index.php"><div id="btn2">Back to Front</div></a> <!-- End Btn2 -->
-  
+<a href="../staff/login.php"><div id="btn2">Login as Staff</div></a> <!-- End Btn2 -->
+  <div class="note note-error">No Details Required Just Click Sign in : Demo</div>
 </div> <!-- End Box -->
   
 </form>
