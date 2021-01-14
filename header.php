@@ -49,7 +49,7 @@ $(document).ready(function() {
 <!-- Breadcrumbs -->
     <section id="crumbs" class="row crumbs2">
       <div class="col grid_6">
-        <a href="index.php">'<img src="" alt="Quiz Portal" class="front-logo"/>Online Quiz and Exam</a>
+        <a href="index.php">'<img src="assets/images/logo.png" alt="Quiz Portal" class="front-logo" width="206" height="70"/></a>
       </div>
 	  <div class="col grid_14">
 	  	<!--Social -->
@@ -71,9 +71,9 @@ $(document).ready(function() {
       </div>
 	  <div class="col grid_4 header-login">
 		
-			<a href="login.php" class="button-login">Login</a><a href="register.php" class="button-register">Register</a>
+			<a href="index.php#loginbox" class="button-login">Login</a><a href="register.php" class="button-register">Register</a>
 		
-			<a href="logout.php" class="button-logout">Logout</a>
+			<a href="admin/login.php" class="button-login">Admin Login</a>
 		
       </div>
     </section>
