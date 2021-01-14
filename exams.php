@@ -56,7 +56,7 @@
         <td><a href="exams.php">Demo Course 1</a></td>
         <td>10 (minutes)</td>
         <td>
-      <a href="exams.php">Details</a>
+      <a href="examdetails.php">Details</a>
       </tr>
       
     </table>
